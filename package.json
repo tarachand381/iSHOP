@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-quill": "^2.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && node --watch index\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
